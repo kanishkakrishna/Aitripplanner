@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { MapPin, CloudSun, Route, Sparkles, LoaderCircle } from 'lucide-react'
 
-const API_URL = import.meta.env.VITE_API_URL || 'BACKEND_URL_PLACEHOLDER'
+const API_URL = import.meta.env.VITE_API_URL || 'https://aitripplanner-api.onrender.com'
 
 function App() {
   const [prompt, setPrompt] = useState('')
